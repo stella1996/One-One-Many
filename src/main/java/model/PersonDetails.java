@@ -13,7 +13,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @Table(name = "persondetails",uniqueConstraints = {
-		@UniqueConstraint(columnNames = "MOBILE_NUMBER")
+ 		@UniqueConstraint(columnNames = "MOBILE_NUMBER")
 		})
 public class PersonDetails {
 	

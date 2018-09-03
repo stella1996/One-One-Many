@@ -15,7 +15,7 @@ import org.hibernate.annotations.GenericGenerator;
 @Entity
 @Table(name = "passport")
 public class Passport {
-
+ 
 	private String passportNumber;
 	private int passportId;
 	private Person person;

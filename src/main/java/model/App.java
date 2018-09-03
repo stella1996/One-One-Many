@@ -13,7 +13,7 @@ public class App
     {
     	System.out.println("Hibernate one to one (XML mapping)");
     	Configuration cfg= new Configuration();
-		cfg.configure("resources/hibernate.cfg.xml");
+		 cfg.configure("resources/hibernate.cfg.xml");
 		SessionFactory session= cfg.buildSessionFactory();
 		Session s= session.openSession();
         s.beginTransaction();

@@ -17,5 +17,5 @@
     <mapping class="model.Passport" />
     <mapping class="model.PersonDetails" />
     
-</session-factory>
+</session-factory>   
 </hibernate-configuration>
